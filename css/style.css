@@ -1,0 +1,109 @@
+body {
+    background-color:white;
+    font-size: 20px;
+    position: relative;
+}
+
+/* Estilos de header*/
+
+.logo{
+    width: 10%;
+display: block;
+margin: 0 auto;
+}
+
+ul {
+    list-style: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+footer { 
+    text-align: center; 
+    padding: 1px;
+    bottom: 0; 
+    width: 100%;
+}
+
+#showcase{
+    background-image: url("../images/showcase.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#showcase2{
+    background-image: url("../images/showcase2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#showcase3{
+    background-image: url("../images/showcase3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#showcase4{
+    background-image: url("../images/showcase4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+#showcase5{
+    background-image: url("../images/showcase5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.fondo-contacto{
+    background-image: url("../images/fondo-contacto.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 90vh;
+}
+
+.btn-bolson{ 
+    display: flex; /* Crea un contenedor flexible */  
+    align-items: center;
+
+}
+.inicial-text{
+    text-align: center;
+    margin: 0;
+    color: black;
+}
+
+.subt-recorrido{
+    margin-left: 15px;
+    color: black;
+}
+
+.text-recorrido{
+    margin-left: 10px;
+    color: black;
+}
+
+.titulo-principal{
+    margin-left: 20px;
+    color: black;
+}
+
