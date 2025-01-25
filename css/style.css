@@ -8,6 +8,17 @@ h2 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
+h5 {
+    color: rgb(0, 0, 0);
+    word-spacing: 2px;
+    text-align: center;
+    background: rgb(120, 145, 197); opacity:0.6;
+
+}
+
+.inicio-traful{
+    color: beige;
+}
 
 #showcase{
     background-image: url("../images/showcase.jpg");
