@@ -3,31 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Villa La Angostura</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-    <header>
-        <div id="showcase3">
-            <div class="container">
-                <h1 class="display-1"><span>Villa La Angostura</span></h1>
-                <p class="large"> <h6>Un lugar que tiene algo para todos</h6>
-                Desde actividades emocionantes para aventureros hasta rincones tranquilos para quienes buscan un retiro en la naturaleza. Con su combinación de paisajes únicos, hospitalidad local y una atmósfera encantadora, este destino patagónico te invita a vivir momentos inolvidables.Si buscas un lugar donde la naturaleza y la tranquilidad se encuentren en perfecta armonía, Villa La Angostura es la elección ideal. ¡Prepárate para dejarte cautivar por la magia del Jardín de la Patagonia!</p>
-                <div class="showcase-row">
-                    <a href="index.html" class="btn btn-dark">Inicio</a>
-                    <a href="villatraful.html" class="btn btn-dark">Villa Traful</a>
-                    <a href="sanmartin.html" class="btn btn-dark">San Martin de los Andes</a>
-                    <a href="bolson.html" class="btn btn-dark">El Bolson</a>
-                    <a href="contacto.html" class="btn btn-dark">Contacto</a>
-                </div>
-            </div>
-        </div>
+    <title>Villa La Angostura</title>
+    <header class="menu-pages">
+        <img class="logo-pages" src="./images/logo.png" alt="logo">
+        <nav>
+            <ul class="lista-menu-pages">
+                <li><a href="index.html" class="btn btn-outline-dark">Inicio</a></li>
+                <li><a href="villatraful.html" class="btn btn-outline-dark">Villa Traful</a></li>
+                <li><a href="sanmartin.html" class="btn btn-outline-dark">San Martin de los Andes</a></li>
+                <li><a href="bolson.html" class="btn btn-outline-dark">El Bolson</a></li>
+                <li><a href="contacto.html" class="btn btn-outline-dark">Contacto</a></li>
+            </ul>
+        </nav>
     </header>
+</head>
+
+<div id="showcase3">
+    <div class="container">
+        <h1 class="display-1"><span>Villa La Angostura</span></h1>
+        <h6 class="titulo-pages">Un lugar que tiene algo para todos</h6>
+        <p class="relleno-titulo-pages">Desde actividades emocionantes para aventureros hasta rincones tranquilos para quienes buscan un retiro en la naturaleza. Con su combinación de paisajes únicos, hospitalidad local y una atmósfera encantadora, este destino patagónico te invita a vivir momentos inolvidables.</p>
+    </div>
+</div>
     
-    <section id="about">
+    <body>
+        <section id="about">
         <div class="container">
-          <h2>Actividades principales</h2>
+          <h2 class="subt-pages">Actividades principales</h2>
           <div class="about-left">
             <p class="large">Villa La Angostura es un destino lleno de maravillas naturales, y tres de sus principales atractivos destacan por su belleza y encanto único: el Parque Nacional Los Arrayanes, la Ruta de los Siete Lagos y el Cerro Bayo. Estos lugares representan lo mejor de la Patagonia, combinando paisajes espectaculares con experiencias inolvidables.</p>
             <p>Parque Nacional Los Arrayanes: Un Bosque Único en el Mundo
@@ -42,42 +46,63 @@
     
     <section id="services">
         <div class="container">
-            <h2>Lugares para comer que recomendamos</h2>
+            <h2 class="subt2-pages">Lugares para comer que recomendamos</h2>
             <p>El pueblo tiene una variada oferta gastronómica. No puedes dejar de probar los productos locales, como chocolates artesanales, cervezas patagónicas y platos elaborados con ingredientes frescos de la región, como truchas y cordero.</p>
             <p>Las Balsas - Relais & Châteaux: Ubicado en un entorno espectacular junto al lago Nahuel Huapi, este restaurante ofrece una experiencia gourmet que destaca por su cocina de autor. Los platos están elaborados con ingredientes frescos y locales, y la carta combina sabores patagónicos con técnicas modernas. Ideal para quienes buscan una experiencia exclusiva y refinada.</p>
             <p>Tinto Bistró: Este acogedor bistró es conocido por su cocina de autor que resalta los sabores de la Patagonia. Ofrece platos creativos en un ambiente íntimo y relajado. Es una excelente opción para disfrutar de una velada especial.</p>
-            <p>El Pamperito: Este restaurante es una parada obligatoria para quienes buscan carnes argentinas de alta calidad. Las parrillas y cortes tradicionales se destacan, y el ambiente familiar lo convierte en una opción cálida y agradable para almorzar o cenar.</p>
+            <p>Waldhaus: Especializado en cocina centroeuropea, este restaurante ofrece platos únicos como el goulash y los spätzle. También es famoso por su repostería casera, con postres tradicionales que son un verdadero deleite.</p>
         </div> 
+    </section>
+
+    <section class="d-flex justify-content-center">
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./images/car-balsas.jpg" class="d-block w-100" alt="jauja">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4><a class="info-ig" href="https://www.instagram.com/las_balsas_patagonia/">Las Balsas - Mas informacion</a></h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/car-bistro.jpg" class="d-block w-100" alt="agusto">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4><a class="info-ig" href="https://www.instagram.com/tintobistro/?hl=es">Tinto Bistro - Mas informacion</a></h4>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./images/car-waldhaus.png" class="d-block w-100" alt="patio">
+                    <div class="carousel-caption d-none d-md-block">
+                        <h4><a class="info-ig" href="https://www.instagram.com/waldhauscocina/?hl=es-la">Waldhaus - Mas informacion</a></h4>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
     </section>
     
     <section id="about">
         <div class="container">
-            <h2>Clima actual</h2>
+            <h2 class="subt2-pages">🌤️ Temperatura actual</h2>
             <a href="https://www.accuweather.com/es/ar/villa-la-angostura/1227987/weather-forecast/1227987">Temperatura actual en Villa La Angostura</a>
-            <div id="carouselExample" class="carousel slide">
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="./images/carrusel1.jpg" class="d-block w-100" alt="carrusel1">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/carrusel2.jpg" class="d-block w-100" alt="carrusel2">
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/carrusel3.jpg" class="d-block w-100" alt="carrusel3">
-                    </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
-            
+                        
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
     
-    <footer>Copy Right. Todos los derechos reservados a Ornella Producciones</footer>
-</body>
+    <footer>®2025 Turismo en la Patagonia 
+        <p class="mb-0">
+            <a href="#">Back to top</a>
+        </p>
+      </footer> 
+    </body>
 </html>
