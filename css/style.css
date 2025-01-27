@@ -1,180 +1,162 @@
-/* Estilos del Index*/
-
 h2 {
-    text-transform: uppercase;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.logo-principal{
-    width: 10%;
-    height: 10%;
-}
-
-.blog-header-logo{
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif; 
-    font-size: 2.25rem;
-}
-
-.galeria-inicio{
-    padding: 70px;
-}
-
-.subtitulo-tesoro{
-    margin-top: 20px;
-}
-
-/*Estilos generales*/
-
-h1 {
-    text-transform: uppercase;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-transform: uppercase;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
 }
 
 h5 {
-    color: rgb(0, 0, 0);
-    background: rgb(243, 254, 253); opacity:0.4;
-    word-spacing: 2px;
-    text-align: center;
-    margin-top: 95px;
-
+  color: rgb(0, 0, 0);
+  background: rgb(243, 254, 253);
+  opacity: 0.4;
+  word-spacing: 2px;
+  text-align: center;
+  margin-top: 95px;
 }
 
-.logo-pages{
-    width: 8%;
-    height: 8%;
+.logo-principal {
+  width: 10%;
+  height: 10%;
 }
 
-.menu-pages{
-    background-color: rgb(255, 255, 255);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-right: 20px;
+.blog-header-logo {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2.25rem;
 }
 
-.lista-menu-pages{
-    color: rgb(255, 255, 255);
-    list-style: none;
-    display: flex;
-    gap: 30px;
+.relleno-titulo-pages {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
 }
 
-.titulo-pages{
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-    font-size: 2rem;
+.relleno-titulo-pages-esp {
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
 }
 
-.relleno-titulo-pages{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
+.subtitulo-tesoro {
+  margin-top: 20px;
 }
 
-.titulo-pages-esp{
-    color: #ffffff;
-    font-family: "Playfair Display", Georgia, "Times New Roman", serif;
-    font-size: 2rem;
+section .galeria-inicio {
+  padding: 70px;
 }
 
-.relleno-titulo-pages-esp{
-    color: #ffffff;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 1.2rem;
+.logo-pages {
+  width: 8%;
+  height: 8%;
 }
 
-.subt-pages{
-    margin-top: 20px;
+.menu-pages {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-right: 20px;
 }
 
-.subt2-pages{
-    margin-top: 60px;   
+.lista-menu-pages {
+  color: #ffffff;
+  list-style: none;
+  display: flex;
+  gap: 30px;
 }
 
-.info-ig{
-    background-color: rgb(227, 227, 227);
-    opacity: 0.6;
+h1 {
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-
-a{
-    text-decoration: underline;
-    color: rgb(0, 32, 193);
+h6 .titulo-pages {
+  font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+  font-size: 2rem;
 }
 
-.inicio-traful{
-    color: beige;
+.subt-pages {
+  margin-top: 20px;
 }
 
-#showcase{
-    background-image: url("../images/fondo-principal.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+.subt2-pages {
+  margin-top: 60px;
 }
 
-#showcase2{
-    background-image: url("../images/banner.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+.info-ig {
+  background-color: #ffffff;
+  opacity: 0.6;
 }
 
-#showcase3{
-    background-image: url("../images/showcase3.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+a {
+  text-decoration: underline;
+  color: rgb(0, 32, 193);
 }
 
-#showcase4{
-    background-image: url("../images/showcase4.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+#showcase {
+  background-image: url("../images/fondo-principal.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
-#showcase5{
-    background-image: url("../images/showcase5.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+#showcase2 {
+  background-image: url("../images/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
-.fondo-contacto{
-    background-image: url("../images/fondo-contacto.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 70vh;
+#showcase3 {
+  background-image: url("../images/showcase3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
-.form-contacto{
-    color: #ffffff;
-    padding-left: 2rem;
+#showcase4 {
+  background-image: url("../images/showcase4.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
-footer { 
-    text-align: center; 
-    padding: 1px;
-    bottom: 0; 
-    width: 100%;
-    background-color: #ffffff;
-    color: rgb(0, 0, 0);
+#showcase5 {
+  background-image: url("../images/showcase5.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
-/*Estilos para tablet*/ 
-
-@media screen and (min-width: 600px){
-
-    body img{
-        grid-template-columns: 2fr;
-        grid-template-rows: repeat(4, 40%);
-        column-gap: 1rem;
-    }
+.fondo-contacto {
+  background-image: url("../images/fondo-contacto.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 70vh;
 }
 
-/*Estilos para desktop*/
+.form-contacto {
+  color: #e1d2e8;
+  padding-left: 2rem;
+}
+
+footer {
+  text-align: center;
+  padding: 1px;
+  bottom: 0;
+  width: 100%;
+  background-color: #9cbfdd;
+  color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 767px) {
+  .galeria-inicio {
+    width: 20vh;
+    grid-column: span 2;
+    grid-template-rows: repeat 2, 50%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

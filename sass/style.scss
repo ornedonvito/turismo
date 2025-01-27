@@ -1,2 +1,156 @@
-@import "utilidades/variables";
+@import "../sass/utilidades/variables";
+@import "../sass/utilidades/mixin";
+
+h2 {
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h5 {
+    @include h5;
+ }
+
+.logo-principal {
+    width: 10%;
+    height: 10%;
+}
+
+
+.blog-header-logo{
+    font-family: "Playfair Display", Georgia, "Times New Roman", serif; 
+    font-size: 2.25rem;
+}
+
+.relleno-titulo-pages{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+
+.relleno-titulo-pages-esp{
+    color: $color-general;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.2rem;
+}
+        
+ .subtitulo-tesoro{
+    margin-top: 20px;
+}
+
+
+ section{
+    .galeria-inicio{
+        padding: 70px;
+    }
+ }
+
+ .logo-pages{
+    width: 8%;
+    height: 8%;
+}
+
+
+.menu-pages{
+    background-color: $color-general;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.lista-menu-pages{
+    color: $color-general;
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h6{
+    .titulo-pages{
+        font-family: "Playfair Display", Georgia, "Times New Roman", serif;
+        font-size: 2rem;
+    }
+}
+
+
+.subt-pages{
+    margin-top: 20px;
+}
+
+.subt2-pages{
+    margin-top: 60px;
+}
+  
+
+.info-ig{
+    background-color: $color-general;
+    opacity: 0.6;
+}
+
+a{
+    text-decoration: underline;
+    color: rgb(0, 32, 193);
+}
+
+#showcase{
+    background-image: url("../images/fondo-principal.jpg");
+    @include showcase;
+}
+
+#showcase2{
+    background-image: url("../images/banner.jpg");
+    @include showcase;
+}
+
+#showcase3{
+    background-image: url("../images/showcase3.jpg");
+    @include showcase;
+}
+
+#showcase4{
+    background-image: url("../images/showcase4.jpg");
+    @include showcase;
+}
+
+#showcase5{
+    background-image: url("../images/showcase5.jpg");
+    @include showcase;
+}
+
+.fondo-contacto{
+    background-image: url("../images/fondo-contacto.jpg");
+    @include showcase;
+}
+
+.form-contacto{
+    color: #e1d2e8;
+    padding-left: 2rem;
+}
+
+footer { 
+    text-align: center; 
+    padding: 1px;
+    bottom: 0; 
+    width: 100%;
+    background-color: #9cbfdd;
+    color: rgb(0, 0, 0);
+}
+
+@media screen and (max-width: 767px){
+    .galeria-inicio{
+        width: 20vh;
+        grid-column: span 2;
+        grid-template-rows: repeat 2, 50%;
+
+    }   
+}
+
+
+
+
+
 

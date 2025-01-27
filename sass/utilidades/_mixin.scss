@@ -1,0 +1,14 @@
+@mixin h5{
+    color: rgb(0, 0, 0);
+    background: rgb(243, 254, 253); opacity:0.4;
+    word-spacing: 2px;
+    text-align: center;
+    margin-top: 95px;
+}
+
+@mixin showcase{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 70vh;
+}
