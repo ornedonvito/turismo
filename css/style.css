@@ -97,6 +97,15 @@ a {
   height: 70vh;
 }
 
+.filtro-1{
+  background: linear-gradient(to right, rgb(94, 155, 221), rgb(215, 254, 255));
+}
+
+.filtro-2 {
+  color: #85c9e8;
+  text-shadow: -3px 3px #ffffff, -3px -3px #ffffff, 3px -3px #ffffff, 3px 3px #f3f3f2, 6px 6px #6ac7c2;
+}
+
 #showcase2 {
   background-image: url("../images/banner.jpg");
   background-repeat: no-repeat;
@@ -105,12 +114,21 @@ a {
   height: 70vh;
 }
 
+.filtro-3{
+  background: linear-gradient(to right, rgb(61, 133, 45), rgb(211, 183, 54));
+}
+
+
 #showcase3 {
   background-image: url("../images/showcase3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
+}
+
+.filtro-4{
+  background: linear-gradient(to right, rgb(100, 75, 28), rgb(187, 162, 54));
 }
 
 #showcase4 {
@@ -121,12 +139,20 @@ a {
   height: 70vh;
 }
 
+.filtro-5{
+  background: linear-gradient(to right, rgb(9, 30, 63), rgb(28, 120, 28));
+}
+
 #showcase5 {
   background-image: url("../images/showcase5.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
   height: 70vh;
+}
+
+.filtro-6{
+  background: linear-gradient(to right, rgb(45, 5, 49), rgb(19, 71, 120));
 }
 
 .fondo-contacto {
@@ -139,7 +165,8 @@ a {
 
 .form-contacto {
   color: #e1d2e8;
-  padding-left: 2rem;
+  justify-items: center;
+  padding-top: 20px;
 }
 
 footer {
